@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div role="columnheader">
+                <a href="../index.html"><img src="../assets/img/icon-store.png" alt="Icono de la empresa."></a>
+            </div>
+            <a href="../index.html">Inicio</a>
+            <a href="./tienda.html">Tienda</a>
+            <a href="./soporte.html">Soporte</a>
+            <div role="columnheader">
+                <a href="./carrito.html"><img src="../assets/img/carrito.png" alt="Carrito de compras."></a>
+                <a href="./login.html"><img src="../assets/img/profile.png" alt="Icono de inicio de sesión."></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>¿No estás registrado?</h1>
+        <p>Regístrate y disfrutarás de una experiencia de compra más rápida</p>
+        <form action="" method="post">
+            <div>
+                <label>Nombres:
+                    <input type="text" name="name" id="name" placeholder="name" required>
+                </label>
+            </div>
+            <div>
+                <label>Apellidos:
+                    <input type="text" name="apellidos" id="apellidos" placeholder="apellido" required>
+                </label>
+            </div>
+            <div>
+                <label>DNI:
+                    <input type="text" name="dni" id="dni" placeholder="234567890" required>
+                </label>
+            </div>
+            <div>
+                <label>Email:
+                    <input type="email" name="enail" id="email" placeholder="juan@gmail.com" required>
+                </label>
+            </div>
+            <div>
+                <label>Contraseña:
+                    <input type="password" name="pasword" id="password" placeholder="**********" required pattern="^(?=.[a-z])(?=.[A-Z])(?=.\d)(?=.[@$!%?&])[A-Za-z\d@$!%?&]{8,10}$">
+                </label>
+            </div>
+            <div>
+                <label for="terms">
+                    <input type="checkbox" id=terms name="terms" required>
+                    He leído y acepto los <a href="">Términos y condiciones</a> y la <a href="">Política de Privacidad</a>
+                </label>
+            </div>
+            <div>
+                <label for="add">
+                    <input type="checkbox" id=add name="add" required>
+                    Autorizo los fines adicionales de tratamiento de mis datos descritos en la política de Privacidad
+                </label>
+            </div>
+            <button type="submit">Crear cuenta</button>
+        </form>
+    </main>
+    <footer>
+        Copyright © 2024 - StyleHub Store
+        <a href="mailto:info@stylehub.com">Envíame un correo</a>
+        <a href="tel: +123456789">Llamar por teléfono.</a>
+    </footer>
+</body>
+</html>

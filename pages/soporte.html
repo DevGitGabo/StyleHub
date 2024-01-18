@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#09f">
+    <meta name="description" content="Web de ventas online de la marca
+    StyleHub.">
+    <meta property="og:title" content="StyleHub">
+    <meta property="og:description" content="Web de ventas online.">
+    <meta property="og:image" content="./assets/img/tendencias-moda.jpg">
+    <meta property="og:image:alt" content="Fotografía de unas zapatillas.">
+
+    <title>Soporte StyleHub</title>
+
+    <link rel="alternate" href="https://StyleHub.com/en">
+    <link rel="canonical" href="https://StyleHub.com">
+    <link rel="icon" type="image/png" href="./assets/img/icon-store.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <div role="columnheader">
+                <a href="../index.html"><img src="../assets/img/icon-store.png" alt="Icono de la empresa."></a>
+            </div>
+            <a href="../index.html">Inicio</a>
+            <a href="./tienda.html">Tienda</a>
+            <a href="./soporte.html">Soporte</a>
+            <div role="columnheader">
+                <a href="./carrito.html"><img src="../assets/img/carrito.png" alt="Carrito de compras."></a>
+                <a href="./login.html"><img src="../assets/img/profile.png" alt="Icono de inicio de sesión."></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Soporte</h1>
+        <section>
+            <h2>Preguntas frecuentes</h2>
+
+            <details>
+                <summary>¿Cuál es el proceso de devolución
+                    y reembolso?</summary>
+                <p>Nuestra política de devolución es sencilla.
+                    Si no estás satisfecho con tu compra,
+                    puedes devolverla en un plazo
+                    de 30 días para obtener un reembolso completo. Consulta nuestra página de Devoluciones y Términos para obtener más detalles sobre cómo proceder.</p>
+            </details>
+            <details>
+                <summary>¿Cómo puedo rastrear mi pedido?</summary>
+                <p>aRastrear tu pedido es fácil.
+                    Inicia sesión en tu cuenta y
+                    dirígete a la sección "Seguimiento
+                    de Envíos". Allí encontrarás la
+                    información actualizada sobre la
+                    ubicación y el estado de tu
+                    pedido en tiempo real.</p>
+            </details>
+            <details>
+                <summary>¿Cómo funcionan las ofertas y
+                    descuentos exclusivos?</summary>
+                <p>Ofrecemos ofertas exclusivas a través de
+                    promociones regulares y descuentos
+                    especiales. Asegúrate de suscribirte a nuestra
+                    newsletter para recibir actualizaciones sobre
+                    las últimas ofertas. Además, los clientes
+                    registrados pueden acceder a descuentos adicionales.
+                    ¡No te pierdas nuestras promociones y ahorra
+                    en cada compra!</p>
+            </details>
+        </section>
+        <section>
+            <h2>Contactanos</h2>
+
+            <form method="post" action="/">
+                <fieldset>
+                    <legend>Mensaje</legend>
+                    <textarea id="msg" name="user_message" placeholder="Escribe tu mensaje"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Información personal</legend>
+                    <div>
+                        <label>
+                            Nombre:
+                            <input type="text" name="name"
+                                   placeholder="Gabo Paiqui" required>
+                        </label>
+
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"
+                               placeholder="GaboPaiqui@gmail.com" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Información adicional</legend>
+                    <div>
+                        <label for="telefono">Telefono:</label>
+                        <input type="tel" id="telefono" name="telefono"
+                               placeholder="123456789" pattern="[0-9]{9}">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Otros</legend>
+                    <div>
+                        <datalist id=why name="why">
+                            <option value="Dudas"></option>
+                            <option value="Sugerencias"></option>
+                            <option value="Reclamos"></option>
+                            <option value="Otro"></option>
+                        </datalist>
+                        <label for="why">
+                            ¿Porqué quieres contactarme?
+                            <input list="why" name="why"></input>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="terms" required>
+                            Aceptas los terminos:
+                            </label>
+                    </div>
+                </fieldset>
+
+                <input type="submit" value="Enviar contacto">
+            </form>
+        </section>
+    </main>
+    <footer>
+        Copyright © 2024 - StyleHub Store
+        <a href="mailto:info@stylehub.com">Envíame un correo</a>
+        <a href="tel: +123456789">Llamar por teléfono.</a>
+    </footer>
+</body>
+</html>

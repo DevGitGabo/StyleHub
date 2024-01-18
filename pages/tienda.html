@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#09f">
+    <meta name="description" content="Web de ventas online de la marca
+    StyleHub.">
+    <meta property="og:title" content="StyleHub">
+    <meta property="og:description" content="Web de ventas online.">
+    <meta property="og:image" content="./assets/img/tendencias-moda.jpg">
+    <meta property="og:image:alt" content="Fotografía de unas zapatillas.">
+
+    <title>Tienda StyleHub</title>
+
+    <link rel="alternate" href="https://StyleHub.com/en">
+    <link rel="canonical" href="https://StyleHub.com">
+    <link rel="icon" type="image/png" href="./assets/img/icon-store.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <div role="columnheader">
+                <a href="../index.html"><img src="../assets/img/icon-store.png" alt="Icono de la empresa."></a>
+            </div>
+            <a href="../index.html">Inicio</a>
+            <a href="./tienda.html">Tienda</a>
+            <a href="./soporte.html">Soporte</a>
+            <div role="columnheader">
+                <a href="./carrito.html"><img src="../assets/img/carrito.png" alt="Carrito de compras."></a>
+                <a href="./login.html"><img src="../assets/img/profile.png" alt="Icono de inicio de sesión."></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Tienda virtual StyleHub</h1>
+        <aside>
+            <h2>Filtros de Busqueda</h2>
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Producto</legend>
+                    <div>
+                        <label><input type="text" name="text" id="text" placeholder="text"
+                                      required></label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Categorías</legend>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="Hombres" required>
+                            Moda Hombres
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="Hombres" required>
+                            Moda Mujeres
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="Hombres" required>
+                            Accesorios
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Precio</legend>
+                    <div>
+                        <label for="valorEnSoles">
+                            Selecciona el valor máximo:
+                            <div>
+                                <input type="range" id="valorEnSoles" name="valorEnSoles" min="0" max="100" step="1" value="50">
+                                <output for="valorEnSoles" id="outputValor">50</output>
+                            </div>
+                        </label>
+                    </div>
+                </fieldset>
+                <button type="submit">Buscar</button>
+            </form>
+        </aside>
+        <section>
+            <h2>!Tenemos todo lo que nesecitas¡</h2>
+            <article>
+                <img src="../assets/img/vestido-floral-primavera.jpg" alt="Imagen del Vestido Floral Primaveral">
+                <header>
+                    <h3>Vestido Floral Primaveral</h3>
+                </header>
+                <p>Descripción: Sumérgete en la frescura de la primavera con nuestro Vestido Floral Primaveral. Con un diseño elegante y estampado floral vibrante, este vestido es perfecto para ocasiones casuales y eventos especiales. Hecho con tela ligera y cómoda para mantenerte a la moda y cómoda al mismo tiempo.</p>
+                <button>Añadir al Carrito</button>
+                <small>S/. 500</small>
+                <footer>
+                    <a href="./vestido-floral-primavera.html">Leer más</a>
+                </footer>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Copyright © 2024 - StyleHub Store
+        <a href="mailto:info@stylehub.com">Envíame un correo</a>
+        <a href="tel: +123456789">Llamar por teléfono.</a>
+    </footer>
+</body>
+</html>
